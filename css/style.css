@@ -31,6 +31,19 @@ nav a{
     color: white !important;
 }
 
+.nav-link{
+    background-image: linear-gradient(transparent 0%, transparent 90%, white 90%, white 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+}
+
+nav .nav-link:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
 .navbar-brand{
     font-weight: bold;
 }
@@ -111,6 +124,10 @@ footer{
     border: 1px solid white;
     height: 2.5rem;
     width: 2.5rem;
+}
+
+.social:hover{
+    color: var(--primary);
 }
 
 .copyright{
