@@ -82,10 +82,6 @@ main{
     border-radius: 4px;
 }
 
-.container-small{
-    max-width: 720px;
-}
-
 .form-input{
     border: none;
     border-bottom: 1px solid lightgray;
