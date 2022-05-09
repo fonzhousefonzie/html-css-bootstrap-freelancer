@@ -1,0 +1,32 @@
+.card{
+    border: none;
+    cursor: pointer;
+}
+
+.card-img-top{
+    transition: 300ms;
+}
+
+.card:hover .card-img-top{
+    transform: scale(110%);
+    border-radius: 300px;
+    box-shadow: 0 10px 10px black;
+}
+
+.btn{
+    transition: 300ms;
+}
+
+.btn:hover{
+    transform: scale(110%);
+    box-shadow: 0 5px 10px black;
+}
+
+.social{
+    transition: 300ms;
+}
+
+.social:hover{
+    transform: scale(110%);
+    box-shadow: 0 5px 10px black;
+}
